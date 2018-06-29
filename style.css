@@ -1,0 +1,26 @@
+#product-gallery {
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.grid-container {
+    background: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    display: grid;
+    grid-template: repeat(20, 100px) / repeat(8, 120px);
+    width: 960px;
+    height: 2000px;
+}
+
+.linen-blazer {
+    grid-area: 3 / 1 / span 4 / span 4;
+}
+
+.linen-blazer .img {
+    background: url("./images/linen-blazer.jpg");
+    width: 480px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
